@@ -1,0 +1,19 @@
+# android-academy-server
+
+- Quick run from Terminal: `> gradlew run`
+- Running the application from inside the IDE: https://ktor.io/docs/running.html#running-the-application-from-inside-the-ide
+
+## Available routes
+
+http://localhost:8080/news
+<details>
+<summary>Responds</summary>
+    [{"id":1,"text":"В понедельник было не просто! Артур поведал много всего про реактивные подходы и саму библиотеку RxJava. Хоть домашки к этой лекции не будет, но скучать не придется. Ведь есть RxRiddles.","link":"https://developer.android.com","picture":"https://multi-thread.com/wp-content/uploads/2019/05/hqdefault.jpg","date":1647725195840,"chat_id":1},{"id":2,"text":"Привет!\n\nУже готовы к хакатону? Может, и команду собрали?\n\nОтлично! У вас есть ещё 2 часа, чтобы в свободной форме переписываться с людьми в https://t.me/joinchat/TNmpVpm0HZ9jODAy и сформировать команду вашей мечты! \n","link":"https://developer.android.com","picture":"https://pbs.twimg.com/media/EaiVBbgXQAAKSED.png","date":1647725195841,"chat_id":2},{"id":3,"text":"3 В понедельник было не просто! Артур поведал много всего про реактивные подходы и саму библиотеку RxJava. Хоть домашки к этой лекции не будет, но скучать не придется. Ведь есть RxRiddles.","link":"https://developer.android.com","picture":"https://multi-thread.com/wp-content/uploads/2019/05/hqdefault.jpg","date":1647725195841,"chat_id":3},{"id":4,"text":"4 В понедельник было не просто! Артур поведал много всего про реактивные подходы и саму библиотеку RxJava. Хоть домашки к этой лекции не будет, но скучать не придется. Ведь есть RxRiddles.","link":"https://developer.android.com","picture":"https://multi-thread.com/wp-content/uploads/2019/05/hqdefault.jpg","date":1647725195841,"chat_id":4},{"id":5,"text":"OLD 5\nВ понедельник было не просто! Артур поведал много всего про реактивные подходы и саму библиотеку RxJava. Хоть домашки к этой лекции не будет, но скучать не придется. Ведь есть RxRiddles.","link":"https://developer.android.com","picture":"https://multi-thread.com/wp-content/uploads/2019/05/hqdefault.jpg","date":1621286795841,"chat_id":5},{"id":6,"text":"OLD 6\nПривет!\n\nУже готовы к хакатону? Может, и команду собрали?\n\nОтлично! У вас есть ещё 2 часа, чтобы в свободной форме переписываться с людьми в https://t.me/joinchat/TNmpVpm0HZ9jODAy и сформировать команду вашей мечты! \n","link":"https://developer.android.com","picture":"https://pbs.twimg.com/media/EaiVBbgXQAAKSED.png","date":1621286795841,"chat_id":6},{"id":7,"text":"OLD 7\nВ понедельник было не просто! Артур поведал много всего про реактивные подходы и саму библиотеку RxJava. Хоть домашки к этой лекции не будет, но скучать не придется. Ведь есть RxRiddles.","link":"https://developer.android.com","picture":"https://multi-thread.com/wp-content/uploads/2019/05/hqdefault.jpg","date":1621286795841,"chat_id":7},{"id":8,"text":"OLD 8\nВ понедельник было не просто! Артур поведал много всего про реактивные подходы и саму библиотеку RxJava. Хоть домашки к этой лекции не будет, но скучать не придется. Ведь есть RxRiddles.","link":"https://developer.android.com","picture":"https://multi-thread.com/wp-content/uploads/2019/05/hqdefault.jpg","date":1621286795841,"chat_id":8}]
+</details>
+
+http://localhost:8080/video
+<details>
+<summary>Responds</summary>
+    [{"id":1,"name":"Android Fundamentals #0: How to Kotlin (Russian language)","date":"27 oct. 2020","picture":"https://img.youtube.com/vi/_clrkv6VL4g/0.jpg","city":"Moscow","level":"Fundamentals","year":"2020-2021"},{"id":2,"name":"Coroutines, Yonatan Levin - Android Developer@Monday","date":"7 feb. 2020","picture":"https://img.youtube.com/vi/ngGI-zVJceo/0.jpg","city":"Minsk","level":"Advanced","year":"2019-2020"},{"id":3,"name":"Android Academy TLV 2019 - Fundamentals Course - fragments by Gil Goldzweig","date":"25 dec. 2019","picture":"https://img.youtube.com/vi/3zb7AnbFfTA/0.jpg","city":"Tel-Aviv","level":"Fundamentals","year":"2019-2020"}]
+</details>
+ 
