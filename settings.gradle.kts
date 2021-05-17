@@ -1,1 +1,2 @@
-rootProject.name = "android-academy-server"
+rootProject.name = "AndroidAcademyServer"
+
