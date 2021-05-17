@@ -1,6 +1,7 @@
 package com.academy.android.server
 
 import com.academy.android.server.route.registerNewsRoutes
+import com.academy.android.server.route.registerVideoRoutes
 import io.ktor.application.*
 import io.ktor.features.*
 import io.ktor.response.*
@@ -18,6 +19,9 @@ import io.ktor.serialization.*
 
     Running the application from inside the IDE
     https://ktor.io/docs/running.html#running-the-application-from-inside-the-ide
+
+    Quick run from Terminal
+    > gradlew run
  */
 
 fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
@@ -29,6 +33,7 @@ fun Application.module(testing: Boolean = false) {
     }
     
     registerNewsRoutes()
+    registerVideoRoutes()
 
     routing {
         get("/") {
